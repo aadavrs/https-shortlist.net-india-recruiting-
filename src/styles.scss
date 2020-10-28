@@ -1,0 +1,104 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/scss/variables"; 
+// Imports functions, variables, and mixins that are needed by other Bootstrap files
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~bootstrap/dist/css/bootstrap.css"; 
+@import "~bootstrap/scss/bootstrap";
+
+html,body {   
+  background-color: $bg-color;
+  font-size: 12px;
+  overflow-x: hidden;
+}
+body {  
+  font-family:  helvetica,arial,serif;
+  margin: 0;
+  padding: 0;
+  background: $bg-color;   
+  font-weight: normal;
+  line-height: 1.5;
+  color: $font-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.header {
+  position: absolute;
+  top: 1.1rem;
+  right: 0;
+  width: 100%;
+  height: 8rem;
+  z-index: 5;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-family:  helvetica,arial,serif;
+  font-weight: normal;
+  font-size: 1.25rem;
+  color: #000;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+.row-container {
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row-container.full {  
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 8rem;
+}
+.row-x {
+  display: flex;
+  flex-flow: row wrap;
+}
+.cell {
+  flex: 0 0 auto;
+  min-height: 0px;
+  min-width: 0px;
+  width: 100%;
+}
+.align-middle {
+  align-items: center;
+}
+.align-spaced {
+  justify-content: space-around;
+  max-width: 100%;
+}
+.footer{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 8rem;     
+    background-color: $indico-color;
+    padding-bottom: 1rem;
+}
+.banner{
+  height: auto;
+  padding: 10% 0 0;
+}
+@media only screen and (max-width: 768px) {
+  .desktop{
+    display: none;
+  }
+  #navbarSupportedContent {
+    background-color: #fefefe;
+  }
+}
+@media print, screen and (min-width: 40em){
+  .mobile{
+    display: none;
+  }
+}

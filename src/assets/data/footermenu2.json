@@ -1,0 +1,23 @@
+[
+  { "id": 0,
+    "name": "How We Help",
+    "description": "How We Help",
+    "url":"https://www.shortlist.net/webportal/#/job-seeker"
+    },
+    { "id": 1,
+    "name": "See Job Posts",
+    "description": "See Job Posts",
+    "url":"https://www.shortlist.net/webportal/#/job-seeker"
+    },
+    { "id": 2,
+    "name": "Job Seeker FAQ",
+    "description": "Job Seeker FAQ",
+    "url":"https://www.shortlist.net/faq"
+    },
+    { "id": 3,
+    "name": "Sign Up/ Login",
+    "description": "Sign Up/ Login",
+    "url":"https://www.shortlist.net/webportal/#/login"
+    }
+  ]
+ 

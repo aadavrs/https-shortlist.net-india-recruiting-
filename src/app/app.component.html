@@ -1,0 +1,148 @@
+<header class="header row-container full"> 
+  <div class="row-container align-spaced align-middle">    
+    <nav class="navbar fixed-top navbar-expand-md navbar-light default-color">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/home">
+          <img class="logo header-logo" src="assets/image/rudra-logo.png" alt="forecastr logo">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/company" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                FOR CANDIDATES
+              </a>
+              <div class="dropdown-menu fade-down" aria-labelledby="navbarDropdown2">
+                <a class="dropdown-item wrap-text" href="/company/our-values">Why Join Shortlist?</a>
+                <a class="dropdown-item wrap-text" href="/company/work-at-wade-and-wnedy">Find a job</a>
+                <a class="dropdown-item wrap-text" href="/company/contact">Discover Companies</a>
+                <a class="dropdown-item wrap-text" href="/company/product-updates">Virtual Internships</a>
+                <a class="dropdown-item wrap-text" href="/company/system">Sign up</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/resources" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                FOR EMPLOYERS
+              </a>
+              <div class="dropdown-menu fade-down" aria-labelledby="navbarDropdown3">
+                <a class="dropdown-item wrap-text" href="/resources/resource-list">For Employers</a>
+                <a class="dropdown-item wrap-text" href="/resources/blog">Shortlist Search</a>
+                <a class="dropdown-item wrap-text" href="/resources/resource-list">Shortlist Connect</a>
+                <a class="dropdown-item wrap-text" href="/resources/blog">Talent Pipelining</a>
+                <a class="dropdown-item wrap-text" href="/resources/resource-list">Resources</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/BLOG">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ABOUTUS">ABOUT US</a>
+            </li>
+            <li class="nav-item btn btn-success btn-padding bg-indico">
+              <a class="nav-link txt-white" href="/login">Login</a>
+            </li>
+            <li class="nav-item"> &nbsp;        
+            </li>             
+            <li class="nav-item btn btn-success btn-padding bg-indico">
+              <a class="nav-link txt-white" href="/request-demo">Request Demo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+  </div>
+</header>
+<router-outlet></router-outlet>
+<footer class="footer row-container full align-spaced align-middle">
+  <div class="row">
+    <div class="col-3 col-sm-12	col-md-3	col-lg-3	col-xl-3"> 
+      <div class="footer-header">
+        ABOUT
+      </div>    
+      <ul  id="menu-footer-menu" class="nav flex-column">
+        <li *ngFor="let menu of footerMenuLst" class="nav-item">
+          <a class="footer-menu-link" href="{{menu.url}}">{{ menu.name }}</a>
+        </li> 
+      </ul>  
+    </div>
+    <div class="col-3 col-sm-12	col-md-3	col-lg-3	col-xl-3"> 
+      <div class="footer-header">
+        LOOKING TO HIRE?
+      </div>      
+      <ul  id="menu-footer-menu" class="nav flex-column">
+        <li *ngFor="let menu of footerMenuLst1" class="nav-item">
+          <a class="footer-menu-link" href="{{menu.url}}">{{ menu.name }}</a>
+        </li> 
+      </ul>  
+    </div>
+    <div class="col-3 col-sm-12	col-md-3	col-lg-3	col-xl-3">
+      <div class="footer-header">
+        SEEKING A JOB?
+      </div>     
+      <ul  id="menu-footer-menu" class="nav flex-column">
+        <li *ngFor="let menu of footerMenuLst2" class="nav-item">
+          <a class="footer-menu-link" href="{{menu.url}}">{{ menu.name }}</a>
+        </li> 
+      </ul>  
+    </div>
+    <div class="col-3 col-sm-12	col-md-3	col-lg-3	col-xl-3">
+      <div class="footer-header">
+        CONTACT
+      </div>     
+      <ul  id="menu-footer-menu" class="nav flex-column">
+        <li *ngFor="let menu of footerMenuLst3" class="nav-item">
+          <a class="footer-menu-link" href="{{menu.url}}">{{ menu.name }}</a>
+        </li> 
+      </ul> 
+      <ul style="margin-top: 6.1rem;">
+        <li class="footer-social-item">
+          <a href="https://twitter.com/Shortlisthires" target="_blank">             
+            <img class="footer__social-icon" src="https://wadeandwendy.ai/wp-content/uploads/2019/10/ico_twitter.svg" alt="ico twitter">
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a href="https://www.facebook.com/ShortlistProfessionals" target="_blank">
+            <img class="footer__social-icon" src="https://wadeandwendy.ai/wp-content/uploads/2019/10/ico_facebook.svg" alt="ico facebook">
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a href="https://www.linkedin.com/company/firstcut-hires" target="_blank">
+            <img class="footer__social-icon" src="https://wadeandwendy.ai/wp-content/uploads/2019/10/ico_youtube.svg" alt="ico youtube">
+          </a>
+        </li>       
+      </ul>
+    </div>
+  </div>
+  <div style="border-bottom: 0.5px solid #fff; margin-left: -60px; margin-top: 3rem;">
+
+  </div>
+  <div class="row padding-footer">
+    <div class="col-6 col-sm-12	col-md-6	col-lg-6	col-xl-6">
+      <ul>
+        <li class="footer-social-item">
+          <span class="txt-white">Copyright © 2020</span>
+        </li>
+        <li class="footer-social-item">
+          <a class="footer-privacy" href="https://www.shortlist.net/privacy" target="_blank" rel="noopener">Privacy</a>
+        </li>
+        <li class="footer-social-item">
+          <a class="footer-terms" href="https://www.shortlist.net/terms" target="_blank" rel="noopener">Terms</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-6 col-sm-12	col-md-6	col-lg-6	col-xl-6">
+      <ul>
+        <li class="footer-social-item"><a class="txt-white" href="https://www.google.co.in/maps/place/Sharan,+Pandurang+Ashram+Marg,+Bandra+West,+Mumbai,+Maharashtra+400050/@19.0614333,72.8332065,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7c916f3175ed1:0xb7fb9ad601a9c93c!8m2!3d19.0614339!4d72.835439" target="_blank" rel="noopener"> 
+          <img style="margin-right: 5px; margin-bottom: 2px; color: #fff;" alt="Place" width="16" src="assets/image/place.svg">MUMBAI</a></li>
+        <li class="footer-social-item"><a class="txt-white" href="https://www.google.co.in/maps/place/LA+PALAZZO+Apartments/@17.4344415,78.3872672,17z/data=!4m13!1m7!3m6!1s0x3bcb93e294aa919b:0xa3c141fd48a81d42!2sInorbit+Mall+Rd,+Madhapur,+Hyderabad,+Telangana+500081!3b1!8m2!3d17.435786!4d78.3835114!3m4!1s0x0:0x829670308ff96e06!8m2!3d17.434991!4d78.3876161" target="_blank" rel="noopener"> 
+          <img style="margin-right: 5px; margin-bottom: 2px; color: #fff;" alt="Place" width="16" src="assets/image/place.svg">HYDERABAD</a></li>
+        <li class="footer-social-item"><a class="txt-white" href="https://www.google.com/maps?q=Shortlist+Professionals+Ltd,+ABC+Place,+Waiyaki+Way,+Nairobi&amp;ftid=0x182f19e922469125:0xb157afe43df2b556&amp;hl=en-GB&amp;gl=uk&amp;shorturl=1" target="_blank" rel="noopener"> 
+          <img style="margin-right: 5px; margin-bottom: 2px; color: #fff;" alt="Place" width="16" src="assets/image/place.svg">NAIROBI</a></li>
+        <li class="footer-social-item"><a class="txt-white" href="https://www.google.co.in/maps/place/Bryant+St,+Palo+Alto,+CA+94301,+USA/@37.4391681,-122.1531083,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbafa475200d9:0x73a02879395c511!8m2!3d37.4391681!4d-122.1509143" target="_blank" rel="noopener"> 
+          <img style="margin-right: 5px; margin-bottom: 2px; color: #fff;" alt="Place" width="16" src="assets/image/place.svg">PALO ALTO</a></li>
+        </ul>
+    </div>
+  </div>
+</footer>

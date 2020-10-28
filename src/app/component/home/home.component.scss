@@ -1,0 +1,126 @@
+@import "/src/assets/scss/variables";
+.home-banner{
+    padding: 30px 0 30px 0;
+    background-color: #001938;
+    margin-top: 7rem;
+    text-decoration: none;
+}
+.home-banner-1{
+    padding: 120px 0 120px 0;
+    background-color: #fde2bc;    
+    text-decoration: none;
+    text-align: center;;
+}
+.home-banner-p{
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0px;
+}
+.text-white{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.content-aligned {
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.content-aligned-1{
+    padding: 5rem;
+}
+.h1-custom{
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    font-size: 48px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+}
+.h2-custom {
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 0px;
+}
+.span-custom {
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 0px;
+}
+.h5-custom {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0px;
+    margin-bottom: 30px;
+}
+.h4-custom {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-style: normal;
+    text-transform: none;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0px;
+}
+.btn-padding{
+    border-radius: 0.2rem;
+    font-family: "Roboto",helvetica,arial,serif;  
+    position: relative; 
+    padding: 1.5rem 1.5rem !important;
+}
+.btn-padding:hover{
+    background-color: $white-color !important;
+    border-color: $indico-color !important; 
+    color: $black-color !important;
+    transition: 0.6s;
+}
+.txt-white{
+    color: $white-color !important;
+    text-decoration: none;
+}
+.bg-indico{
+    background-color: $indico-color !important;
+    border-color: $indico-color !important;
+}
+.bg-green{
+    background-color: $green-color !important;
+    border-color: $green-color !important;
+}
+.bg-brown{
+    background-color: $brown-color !important;
+    border-color: $brown-color !important;
+}
+.txt-white:hover{
+    color: $black-color !important;
+}
+.bg-indico:hover{
+    background-color: $white-color !important;
+    border-color: $indico-color !important; 
+    color: $black-color !important;  
+}
+.carousel-item{
+    height: 28rem;
+}
+.carousel-item > p{
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0px;
+}

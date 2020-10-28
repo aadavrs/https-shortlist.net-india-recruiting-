@@ -1,0 +1,102 @@
+[
+    {
+        "content_id":"home_001",
+        "content_desctription":"banner",
+        "content_type":"banner",
+        "banner_content_title":"AI Recruiter on demand",
+        "banner_content_text":"Help increase your recruiters’ bandwidth to better focus their time on the human experience. Automate task-driven recruitment processes with Wade & Wendy.",
+        "button":{"button_text":"REQUEST DEMO","href":"https://go.wadeandwendy.ai/wade-and-wendy-demo-opt-in"},
+        "image":{"src":"https://wadeandwendy.ai/wp-content/uploads/2019/11/img-banner-home-2.png","alt":"img banner home 2"},
+        "display_order":"1"
+    },
+    {
+        "content_id":"home_002",
+        "content_desctription":"floateecon reverse",
+        "content_type":"floateecon_reverse",
+        "floateecon_content_title":"Technology to support your distributed workforce",
+        "floateecon_content_text":"As organizations shift more to remote work, support your teams with technology that improves collaboration and enhances digital recruiting experiences for all.",
+        "floateecon_imgbox_background":"https://wadeandwendy.ai/wp-content/uploads/2020/04/undraw-business-chat-ldig.png",
+        "picture":{"src":"https://wadeandwendy.ai/wp-content/uploads/2020/04/undraw-business-chat-ldig.png","alt":"undraw business chat ldig"},
+        "display_order":"2"
+    },
+    {
+        "content_id":"home_003",
+        "content_desctription":"floateecon",
+        "content_type":"floateecon",
+        "floateecon_content_title":"Offload top of funnel recruitment tasks",
+        "floateecon_content_text":"Wendy will source, screen and recommend qualified & interested candidates for your open roles. She will schedule & coordinate next steps. “It’s like magic!” – Happy Recruiter",
+        "floateecon_imgbox_background":"https://wadeandwendy.ai/wp-content/uploads/2019/12/undraw-chat-bot-kli5-2-e1575563453611.png",
+        "picture":{"src":"https://wadeandwendy.ai/wp-content/themes/wadeandwendy/assets/images/img_side-illustration.svg","alt":"undraw chat bot kli5 2"},
+        "side_image":{"src":"https://wadeandwendy.ai/wp-content/themes/wadeandwendy/assets/images/img_side-illustration.svg","alt":"Side Illustration"},
+        "display_order":"3"
+    },
+    {
+        "content_id":"home_004",
+        "content_desctription":"floateecon reverse",
+        "content_type":"floateecon_reverse",
+        "floateecon_content_title":"Radically improved candidate experience",
+        "floateecon_content_text":"Wendy is available to chat with talent 24/7, allowing candidates to share their stories and go beyond their resumes with relevant insights about their experience for the specific role.",
+        "floateecon_imgbox_background":"https://wadeandwendy.ai/wp-content/uploads/2019/12/undraw-things-to-say-ewwb-1.png",
+        "picture":{"src":"https://wadeandwendy.ai/wp-content/uploads/2019/12/undraw-things-to-say-ewwb-1.png","alt":"undraw things to say ewwb 1"},
+        "display_order":"4"
+    },
+    {
+        "content_id":"home_005",
+        "content_desctription":"floateecon",
+        "content_type":"floateecon",
+        "floateecon_content_title":"Substantially increase the bandwidth of your talent acquisition team.",
+        "floateecon_content_text":"Wendy enables your team to support exponentially more jobs at a time, drastically reducing the time to fill open roles, and substantially cutting your talent acquisition costs.",
+        "floateecon_imgbox_background":"https://wadeandwendy.ai/wp-content/uploads/2019/12/undraw-dashboard-nklg-2.png",
+        "picture":{"src":"https://wadeandwendy.ai/wp-content/uploads/2019/12/undraw-dashboard-nklg-2.png","alt":"undraw dashboard nklg 2"},
+        "side_image":{"src":"https://wadeandwendy.ai/wp-content/themes/wadeandwendy/assets/images/img_side-illustration.svg","alt":"Side Illustration"},
+        "display_order":"5"
+    },
+    {
+        "content_id":"home_006",
+        "content_desctription":"cta background pink",
+        "content_type":"cta_background_pink",
+        "cta_img_illustration":{"src":"https://wadeandwendy.ai/wp-content/uploads/2019/10/img_human-illustration.svg","alt":"img human illustration"},
+        "cta_content_text":"Learn how our AI Recruiter, Wendy, can ramp up quickly to fill your open roles!",
+        "button":{"button_text":"REQUEST DEMO","href":"https://go.wadeandwendy.ai/wade-and-wendy-demo-opt-in"},
+        "display_order":"6"
+    },
+    {
+        "content_id":"home_007",
+        "content_desctription":"floateecon",
+        "content_type":"floateecon",
+        "floateecon_content_title":"Recruiters are time constrained & need tasks automated",
+        "floateecon_content_text":"Arm your recruiters with an effective, personalized and scalable recruiting partner to find and engage new candidates, screen and evaluate incoming applicants, and coordinate the process by adding interviews directly to your calendar.",
+        "floateecon_imgbox_background":"https://wadeandwendy.ai/wp-content/uploads/2019/12/undraw-project-completed-w0oq-1.png",
+        "picture":{"src":"https://wadeandwendy.ai/wp-content/uploads/2019/12/undraw-project-completed-w0oq-1.png","alt":"undraw project completed w0oq 1"},
+        "side_image":{"src":"https://wadeandwendy.ai/wp-content/themes/wadeandwendy/assets/images/img_side-illustration.svg","alt":"Side Illustration"},
+        "display_order":"7"
+    },
+    {
+        "content_id":"home_008",
+        "content_desctription":"floateecon reverse",
+        "content_type":"floateecon_reverse",
+        "floateecon_content_title":"The future of recruiting is human and machine collaboration",
+        "floateecon_content_text":"In the war for talent, recruiting organizations must always be looking for an edge so they can build the best teams. Wade & Wendy will guide you to structure your organization to realize the full benefit of automation and AI in the recruitment process.",
+        "floateecon_imgbox_background":"https://wadeandwendy.ai/wp-content/uploads/2019/12/undraw-robotics-kep0-e1575570930373.png",
+        "picture":{"src":"https://wadeandwendy.ai/wp-content/uploads/2019/12/undraw-robotics-kep0-e1575570930373.png","alt":"undraw robotics kep0"},
+        "display_order":"8"
+    },
+    {
+        "content_id":"home_009",
+        "content_desctription":"floateecon version 2",
+        "content_type":"floateecon_version_2",
+        "floateecon_imgbox_background":"https://wadeandwendy.ai/wp-content/uploads/2019/10/img_abstract-v3.svg",
+        "picture":{"src":"https://wadeandwendy.ai/wp-content/uploads/2019/10/img_abstract-v3.svg","alt":"img abstract v3"},
+        "floateecon_imgbox_text":"Since on-boarding Wendy, we've substantially expanded our reach and found quality candidates we previously wouldn't have had the bandwidth to fully engage. Candidates have been very responsive and openly share their stories and relevant experience when chatting with her. With Wendy, we better understand the candidates who move through our recruitment process, and we ultimately make better hires.",
+        "floateecon_content_title":"You’re in good company",
+        "floateecon_profile_name":"Jason Lorenz",
+        "floateecon_profile_text":"Head of HR Strategy, Technology and Operations - E*TRADE",
+        "floateecon_profile_img":{"src":"https://wadeandwendy.ai/wp-content/uploads/2019/11/screen-shot-2019-11-26-at-4.14.06-pm.png","alt":"screen shot 2019 11 26 at 4.14.06 pm"},
+        "floateecon_logo_array":[
+            {"src":"https://wadeandwendy.ai/wp-content/uploads/2019/11/screen-shot-2019-11-26-at-4.32.50-pm.png","alt":"screen shot 2019 11 26 at 4.32.50 pm"},
+            {"src":"https://wadeandwendy.ai/wp-content/uploads/2019/11/screen-shot-2019-11-26-at-4.42.51-pm.png","alt":"screen shot 2019 11 26 at 4.42.51 pm"},
+            {"src":"https://wadeandwendy.ai/wp-content/uploads/2019/11/screen-shot-2019-11-26-at-4.21.47-pm-e1574804778203.png","alt":"screen shot 2019 11 26 at 4.21.47 pm"}
+        ],
+        "display_order":"9"
+    }
+]

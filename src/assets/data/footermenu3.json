@@ -1,0 +1,18 @@
+ [
+  { "id": 0,
+    "name": "Contact Support",
+    "description": "Contact Support",
+    "url":"https://www.shortlist.net/faq#contact-support"
+    },
+    { "id": 1,
+    "name": "Help with Hiring",
+    "description": "Help with Hiring",
+    "url":"https://shortlist.net/hiring/#Employer-form"
+    },
+    { "id": 2,
+    "name": "Something Else? Contact Us",
+    "description": "Something Else? Contact Us",
+    "url":"https://www.shortlist.net/job-seeker#Candidate-form"
+    }
+ ]
+ 

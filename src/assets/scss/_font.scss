@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Apercu_Bd';
+    font-style: normal;
+    font-weight: bold;
+    src: url('/assets/fonts/Fonts-ApercuBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apercu_BdIt';
+    font-style: italic;
+    font-weight: bold;
+    src: url('/assets/fonts/Fonts-ApercuBoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apercu_Lt';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/Fonts-ApercuLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apercu_Md';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/Fonts-ApercuMedium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apercu_Mo';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/Fonts-ApercuMono.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Apercu_Rg';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/Fonts-ApercuRegular.ttf') format('truetype');
+}
+$Apercu_Rg: 'Apercu_Rg';
+$Apercu_Mo: 'Apercu_Mo';
+$Apercu_Md: 'Apercu_Md';
+$Apercu_Lt: 'Apercu_Lt';
+$Apercu_BdIt: 'Apercu_BdIt';
+$Apercu_Bd: 'Apercu_Bd';

@@ -1,0 +1,18 @@
+[
+  { "id": 0,
+    "name": "Values",
+    "description": "Values",
+    "url":"https://www.shortlist.net/about-us#our-core-values"
+    },
+    { "id": 1,
+    "name": "Team",
+    "description": "Team",
+    "url":"https://www.shortlist.net/about-us#our-team"
+    },
+    { "id": 2,
+    "name": "Our Blog",
+    "description": "Our Blog",
+    "url":"https://shortlist.net/blog/"
+  }
+]
+ 
